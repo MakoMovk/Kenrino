@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenran</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        header {
+            background-color: #111111;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-image {
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto 15px;
+            display: block;
+        }
+
+        nav {
+            background-color: #222222;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            flex: 1 1 300px;
+            border: 1px solid #444444;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #111111;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #444444;
+            background-color: #222222;
+            color: #ffffff;
+        }
+
+        form button {
+            background-color: #333333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555555;
+        }
+        
+        .product-image {
+            width: 100%;
+            max-width: 250px;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            border: 2px solid #444;
+        }
+        
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .product-item {
+            flex: 1 1 300px;
+            border: 1px solid #444;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        
+        .gallery-image {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+            border: 2px solid #444;
+        }
+    </style>
+</head>
+
+    <nav>
+        <a href="#about">Nosotros</a>
+        <a href="#products">Productos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>KENRAN ES UNA EMPRESA QUE BUSCA INNOVAR DENTRO DE LA BISUTERÍA, GRACIAS A NUESTROS MATERIALES SENCILLOS Y FÁCILES DE MANEJAR DAMOS LA INSPIRACIÓN A NUESTROS CLIENTES DE VESTIR, EXPRESANDO AQUELLO QUE LOS HACE ÚNICOS.
+
+DANDO UNA VUELTA A LA BISUTERÍA CONVENCIONAL, NOSOTROS OFRECEMOS LLAVEROS Y JUEGOS DE JOYRÍA. USANDO LA TÉCNICA DE "HAMA BEADS" CUENTAS DE PLÁSTICO Y "PIXEL ART", QUE COMBINADAS SE DAN A RELUCIR SOBRE CUALQUIER LUGAR.</p>
+        
+        <!-- Imagen agregada después de Sobre Nosotros -->
+    </section> 
+
+    <section>
+        <h2>MISÓN</h2>
+        <p>DISEÑAR Y HACER DESLUMBRAR AL USUARIO CON NUESTROS ACCESORIOS INNOVADORES Y SOSTENIBLES, OFRECIENDO PRODUCTOS DE CALIDAD QUE GENEREN UN VALOR Y APRECIACIÓN PARA NUESTROS CLIENTES, GARANTIZANDO RENTABILIDAD Y RECONOCIMIENTO EN EL MERCADO, MIENTRAS PROMOVEMOS EL APRECIO POR LO HECHO A MANO.</p>
+    </section>
+
+    <section>
+        <h2>VISIÓN</h2>
+        <p>SER UNA MARCA DESTACADA A NIVEL NACIONAL EN LA INNOVACIÓN DE ACCESORIOS, OFRECIENDO NUESTROS DISEÑOS ÚNICOS DE ALTA CALIDAD PARA TODO PÚBLICO; BUSCAMOS DIFERENCIARNOS UTILIZANDO MATERIALES RECICLADOS, PROMOVIENDO EL COMPROMISO QUE TODOS TENEMOS DE CUIDAR AL MEDIO AMBIENTE.</p>
+    </section>
+
+    <section id="products">
+        <h2>Productos</h2>
+        <div class="products-container">
+            <div class="product-item">
+                <h3>Llaveros</h3>
+                <p>Llaveros personalizados y de alta calidad, ideales para regalos o promociones de empresa.</p>
+                
+                <!-- Espacio para segunda imagen de llaveros -->
+                <div class="image-gallery">
+                </div>
+            </div>
+            <div class="product-item">
+                <h3>Aritos</h3>
+                <p>Aritos elegantes y modernos para complementar cualquier estilo, disponibles en varios diseños.</p>
+            </div>
+            <div class="product-item">
+                <h3>Collares</h3>
+                <p>Collares únicos y atractivos, elaborados con materiales duraderos y de tendencia actual.</p>
+                
+                <!-- Espacio para imagen de collares -->
+                <div class="image-gallery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Atención al cliente: (503) 6061-6424" required>
+            <input type="email" name="email" placeholder="kenran503@gmail.com" required>
+            <textarea name="message" rows="5" placeholder="¡Envía tu comentario!" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Since 2025 Kenran. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
